@@ -28,7 +28,8 @@ BLACK = 0
 
 while True:
     if GPIO.input(button1) == False:
-        text.write("hi")
+        print("button2 pressed")
+        text.write("PaPiRus Buttons  Button 2 pressed")
     if GPIO.input(button2) == False:
         print("button2 pressed")
         text.write("PaPiRus Buttons  Button 2 pressed")
